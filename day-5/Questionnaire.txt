@@ -1,0 +1,76 @@
+🟢 Level 1: Basic Understanding
+Q1. Write a program to print:
+	Hello Python
+       in a single line.
+
+Q2. Print your name, course name, and day number using a single print() statement.
+
+Q3. What will be the output?
+       print("Python", "Full", "Stack")
+
+Q4. Print the following using one print() call:
+       A B C D
+
+🟡 Level 2: Using sep Parameter
+Q1. Print the numbers 10, 20, 30 separated by :.
+
+Q2. Print a date in the format:
+           24-12-2025
+      using sep.
+
+Q3. Predict the output:
+       print("a", "b", "c", sep="|")
+
+🟡 Level 3: Using end Parameter
+Q1. Print:
+            Hello World
+      using two print() statements.
+
+Q2. What will be the output?
+          print("Python", end=" ")
+          print("Programming")
+
+
+🟠 Level 4: Escape Sequences with print()
+Q1. Print the following output:
+         Python
+         is
+         easy
+
+Q2. Print this exact line:
+        He said, "Python is awesome!"
+
+Q3. Print a tab-separated output:
+        Name    Age    City
+
+🔵 Level 5: Real-World / Practical Programs
+Q1. Print a progress message without moving to a new line, then print Done.
+
+Q2. Print a simple invoice format:
+        Item: Pen
+        Price: 10
+        Quantity: 3
+
+Q3. Print user input:
+        Welcome <username>
+
+
+🔴 Level 6: Advanced / Interview-Style
+Q1. What is the default output stream of print()?
+
+Q2. Modify a print() statement to flush output immediately.
+
+Q3. What will be the output?
+         print("A", "B", end="")
+         print("C")
+
+Q4. Write a program that prints an error message to stderr.
+
+🎯 Bonus Challenge Questions
+Q1. Print a pyramid pattern using only print().
+
+Q2. Print:
+        Python@Django@React
+      without using @ inside the string.
+
+Q3.  Why does print() behave differently when output is redirected to a file? 
