@@ -1,0 +1,9 @@
+# Example-1
+a = 10
+b = 10
+
+##print(id(a))
+##print(id(b))
+
+print(a is b)
+print(a == b)
