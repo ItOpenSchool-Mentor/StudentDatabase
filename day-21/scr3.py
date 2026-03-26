@@ -1,0 +1,4 @@
+# for loop - 3
+for i in range(1, 10, 2):
+    print(f"Hello - {i}")
+print("Script Over.....")
