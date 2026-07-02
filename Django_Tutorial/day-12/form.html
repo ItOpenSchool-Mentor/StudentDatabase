@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <style>
+        h1 {
+            font-size: 48px;
+        }
+
+        label {
+            font-size: 30px;
+        }
+
+        input {
+            font-size: 26px;
+            width: 250px;
+            height: 35px;
+        }
+
+        button {
+            font-size: 26px;
+            padding: 8px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Student Registration Form</h2>
+    <form method="POST">
+        <!-- {% csrf_token %} -->
+        <p> Name: <input type="text" name="name"> </p>
+        <p> Age:  <input type="number" name="age"> </p>
+        <p> City: <input type="text" name="city"> </p>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
